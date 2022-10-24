@@ -1,0 +1,70 @@
+body{
+    background-color: #5b1d99;
+   
+  }
+  .formulario{
+    background-color: #ebe7e0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0px 5px 20px rgba(0,0,0,4);
+    padding: 40px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+  }
+   
+  .dadostext{
+    border-radius: 20px;
+    width: 380px;
+    height: 30px;
+    font-size: large;
+    padding: 7px;
+  }
+  .buttontext{
+    width: 90px;
+    background-color: #5b1d99;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    font-size: large;
+    right:-155px;
+    margin-top: 20px;
+   
+  }
+  .labeltext{
+    color: #3e0355;
+    font-size: large;
+  }
+  .titulo{
+    text-align: center;
+    color: #5b1d99;
+  }
+  .marcar{
+    left: 50px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  #lembrar{
+    margin-left: 40px;
+    margin-top: 20px;
+    position: absolute;;
+  }
+  a{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    color:#5b1d99;
+  }
+
+  .labeltextmarcar{
+    color: #3e0355;
+    font-size: large;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: absolute;;
+  }
