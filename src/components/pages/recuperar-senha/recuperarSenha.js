@@ -1,4 +1,3 @@
-import login from '../login/login';
 import styles from './recuperarsenha.module.css'
 
 const RecuperarSenha = () => (
