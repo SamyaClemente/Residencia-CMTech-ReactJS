@@ -1,22 +1,23 @@
 import styles from "./cadastro_User.module.css";
-import logo from "./CMTECH.png"
+import icone from "./icone-perfil.png"
 
 const CadastroUsuario = () => (
 <div className={styles.principal}>
 
-    <div className={styles.leftIcon}>
-    <img src={logo} className={styles.logo}/>
-    </div>
-    
-    <div className={styles.quadro}>
-    <p className={styles.user}>Cadastro de Usuario</p>
+<div className={styles.titulo}>
+    <img src={icone} className={styles.icone}/>
+    <p className={styles.cadastro}>Cadastro de Cliente</p>
+</div>
+
+<div className={styles.quadro}>
+
     <forms method="post" className={styles.forms}>
         <div>
-        <label for="nome" id="nome" className={styles.nome}>Nome</label><br/>
+        <label for="nome" id="nome" className={styles.nome}>Nome</label>
         <input type="textarea" id="nomeID" placeholder="Nome do Usuário" className={styles.boxNome}/><br/>
-        <label for="email" id="email" className={styles.email}>E-mail</label><br/>
+        <label for="email" id="email" className={styles.email}>E-mail</label>
         <input type="textarea" id="emailID" placeholder="nome@email.com.br" className={styles.boxEmail}/><br/>
-        <label for="empresa" id="empresa" className={styles.empresa}>Empresa</label><br/>
+        <label for="empresa" id="empresa" className={styles.empresa}>Empresa</label>
         <input type="textarea" id="empresaID" placeholder="Empresa.SA" className={styles.boxEmpresa}/><br/>
         <label for="cargo" id="cargo" className={styles.cargo}>Cargo</label>
         <input type="textarea" id="cargoID" className={styles.boxCargo}/>
