@@ -1,8 +1,9 @@
 body{
     background-color: rgb(208, 236, 227);
+    margin: 0vw;
 }
 .principal{
-    margin: 0vh;
+    margin: 0vw;
 }
 .navbar{
     display: flex;
@@ -16,4 +17,9 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100w;
+    
+}
+
+.link{
+    text-decoration: none;
 }
