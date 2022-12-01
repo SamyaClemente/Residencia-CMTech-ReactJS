@@ -9,6 +9,7 @@ import RecuperarSenha from './components/pages/recuperar-senha/recuperarSenha';
 import TrocarSenha from './components/pages/trocar-senha/trocarSenha';
 import CadastroOrg from "./components/pages/cadastro-organizacao/cadastroOrg";
 import MenuLateral from './components/pages/lista-usuarios/menuLateral';
+import Sobre from './components/pages/sobre/sobre';
 
 
 function App() {
@@ -16,14 +17,15 @@ function App() {
   return (
     <Router>
       <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/recuperar-senha" element={<RecuperarSenha />} />
-    <Route exact path="/trocar-senha" element={<TrocarSenha />} />
-    <Route exact path="/login" element={<Login />} />
-    <Route exact path="/cadastroOrg" element={<CadastroOrg />} />
-    <Route exact path="/cadastroUser" element={<CadastroUsuario/>} />
-    <Route exact path="/cadastroCliente" element={<CadastroCliente />} />
-    <Route exact path="/menuLateral" element={<MenuLateral />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/recuperar-senha" element={<RecuperarSenha />} />
+          <Route exact path="/trocar-senha" element={<TrocarSenha />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/cadastroOrg" element={<CadastroOrg />} />
+          <Route exact path="/cadastroUser" element={<CadastroUsuario/>} />
+          <Route exact path="/cadastroCliente" element={<CadastroCliente />} />
+          <Route exact path="/menuLateral" element={<MenuLateral />} />
+          <Route exact path="/Sobre" element={<Sobre/>} />
     </Routes>
    </Router>
   );

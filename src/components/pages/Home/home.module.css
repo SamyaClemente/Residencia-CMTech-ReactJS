@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(208, 236, 227);
+    margin: 0vw;
+}
+.principal{
+    margin: 0vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 1em;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100w;
+    
+}
+
+.link{
+    text-decoration: none;
+}
