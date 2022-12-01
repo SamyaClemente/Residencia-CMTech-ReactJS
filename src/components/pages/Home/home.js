@@ -5,9 +5,15 @@ const Home = () => (
 
     <div className={styles.navbar}>
         <ul className={styles.list}>
-            <Link to="/home"><li className={styles.link}>HOME</li></Link>
-            <Link to="/sobre"><li className={styles.link}>SOBRE</li></Link>
-            <Link to="/login"><li className={styles.link}>LOGIN</li></Link>
+            <Link to="/home" className={styles.url}>
+                <li className={styles.link}>Home</li>
+            </Link>
+            <Link to="/sobre" className={styles.url}>
+                <li className={styles.link}>Sobre</li>
+            </Link>
+            <Link to="/login" className={styles.url}>
+                <li className={styles.link}>Login</li>
+            </Link>
         </ul>
     </div>
     <div className={styles.intro}>

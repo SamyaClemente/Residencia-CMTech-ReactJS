@@ -7,19 +7,22 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
-    background-color: brown;
+    flex-direction: row-reverse;
+    background-color: rgb(172, 243, 225);
     padding: 1em;
 }
 .list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    width: 100w;
-    
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 60px;
 }
-
 .link{
+    margin-left: 1em;
+    color: rgb(5, 24, 43);
+    text-decoration: none;
+}
+.url {
     text-decoration: none;
 }
