@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import CadastroOrg from "./components/pages/cadastro-organizacao/cadastroOrg";
 import HomeTest from './components/pages/teste-home/testehome';
 import RecSenha from './components/pages/rec-senha/rec-senha';
-import Pagina from './components/paginauser/pagina';
+import Pagina from './components/pages/paginauser/pagina';
 import CadastroCliente from './components/pages/cadastro-cliente/cadastroCliente';
 import CadastroUsuario from './components/pages/cadastro-usuario/cadastroUsuario';
 
