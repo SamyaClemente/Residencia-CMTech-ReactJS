@@ -1,0 +1,183 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(238, 245, 239);
+    box-shadow: 0px 5px 40px #afadad;
+
+}
+.principal{
+    background-color: rgb(246, 250, 248);
+    
+}
+.logo{
+    display: flex;
+    width: 220px;
+    height: 80px;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 700px;
+}
+.link{
+    margin-left: 1em;
+    color: rgba(81, 129, 26,255);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+.url {
+    text-decoration: none;
+}
+.hometext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 45%;
+    font-size: 160%;
+}
+.support{
+    width: 130%;
+    height: 110%;
+    justify-content: center;
+    margin-left: -11%;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left: 20%;
+    margin-top: 5%;
+    justify-content: center;
+}
+.imgnlogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(118,181,45,255);
+    padding: 1em;
+    margin-top: 5%;
+    flex-direction: row-reverse;
+}
+  .boxEmail{
+    border-style: solid;
+    width: 130%;
+    height: 30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    background-color: transparent;
+  }
+  .email{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: rgb(64, 64, 66);
+    margin-left: 20px;
+  }
+  .botoes{
+    margin-left: 38%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .cancelar{
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(240, 248, 248);
+    background-color: rgba(61, 100, 17,255);
+  }
+  .entrar{
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(118,181,45,255);
+    color: rgb(240, 248, 248);
+  }
+  .entrar:hover{
+    background-color: rgba(81, 129, 26,255);
+    cursor: pointer;
+  }
+  .cancelar:hover{
+    color:rgb(46, 75, 13);
+    cursor: pointer;
+  }
+  .placeholder:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+  .suporte{
+   display: inline;
+   float: right;
+   padding-left: 10%;
+  }
+  .suporte2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-left: 12%;
+    width: 45%;
+   }
+   .help{
+    padding-right: 30%;
+    font-size: 20px;
+    color: aliceblue;
+   }
+   .termos{
+    font-size: 20px;
+    color: aliceblue;
+   }
+   .redes{
+    justify-content:space-around;
+    align-items: center;
+    width: 30%;
+    padding-top: 2%;
+   }
+   .icons{
+    width: 20%;
+    height: 20%;
+    padding-left: 1%;
+    color: aliceblue;
+   }
+   .sites{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: aliceblue;
+    padding-left: 19%;
+   }
+  .contatotitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: aliceblue;
+  }
+  .contatonum{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    color: aliceblue;
+
+  }
+  .contatomail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    color: aliceblue;
+  }
+  .footerdiv{
+    padding-left: 36%;
+    width: 40%;
+  }
+  
